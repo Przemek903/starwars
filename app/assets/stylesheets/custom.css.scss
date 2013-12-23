@@ -1,0 +1,88 @@
+$navbar-inverse-border: none;
+$navbar-inverse-bg: black;
+$navbar-inverse-link-color: #f2e118;
+$carousel-control-color:#f2e118;
+$carousel-caption-color:#f2e118;
+$breadcrumb-bg: black;
+$breadcrumb-color: #f2e118;
+$thumbnail-padding:8px;
+$thumbnail-bg: black;
+$thumbnail-caption-color: #f2e118;
+
+@import "bootstrap";
+
+body{
+ font-family: 'Margarine', sans-serif;
+ background: #f2e118;
+ 
+}
+
+
+//--------------------- aplication --------------
+
+.header {
+  background:black;
+  border-radius: 18px;
+  font-size: 1.5em;
+
+}
+
+.headerlist {
+    padding-top: 24px; 
+}
+
+
+.maincontent {
+  background:black;
+  margin-top: 10px;
+  border-radius: 18px;
+}
+
+//--------------------- home page ---------
+
+#myCarousel{
+  margin-bottom: 20px;
+}
+
+  #myCarousel img {
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px 10px 10px;
+  }
+
+.carouselramka {
+  margin: 0 auto;
+  width: 350px;
+  background: rgba(255,255,255, 0.2);
+  padding: 2px 10px 10px 10px ;
+  border-radius: 30px;
+}
+
+.maininfo {
+  margin-top: 30px;
+
+}
+
+.caption {
+ margin:0 auto;
+ text-align: center;
+}
+
+//-------------footer-------------------
+
+
+#footer {
+  height: 55px;
+  margin-top: 15px;
+  background: black;
+  position: bottom;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  padding-left: 33%;
+  border-radius: 18px;
+}
+
+  #footer a {
+  color: #f2e118;
+  }

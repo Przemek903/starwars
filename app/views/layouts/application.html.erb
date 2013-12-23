@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Starwars</title>
+<link href='http://fonts.googleapis.com/css?family=Margarine&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="row">
+	
+	<div class="col-md-1"></div>
+	<div class="col-md-10 header">
+		<%= render "layouts/header"%>	
+	</div>
+	<div class="col-md-1"></div>		
+</div>
+
+<div class="container">
+		<%=yield%>	
+</div>
+
+
+<div class="row">
+	
+	<div class="col-md-1"></div>
+	<div class="col-md-10 ">
+		<%= render "layouts/footer"%>	
+	</div>
+	<div class="col-md-1"></div>		
+</div>
+
+</body>
+</html>

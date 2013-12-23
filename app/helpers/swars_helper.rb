@@ -1,0 +1,2 @@
+module SwarsHelper
+end
